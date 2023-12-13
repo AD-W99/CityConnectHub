@@ -1,5 +1,4 @@
-import { JobSearch } from "./components/UI/JobSearch";
-import { Map } from "./components/UI/Map";
+import MainPage from "./pages/MainPage";
 
 import "primereact/resources/themes/lara-light-indigo/theme.css";  
 import "primereact/resources/primereact.min.css";
@@ -9,8 +8,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <JobSearch />
-      <Map />
+      <MainPage />
     </>
   );
 }
