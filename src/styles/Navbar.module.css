@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 12vh;
+    background-color: #7B6D8D;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.linkOptions {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
