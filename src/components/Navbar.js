@@ -15,7 +15,7 @@ export function Navbar() {
                     <li>Notifications</li>
                     <li>Account</li>
                 </ul>
-                <Button label="Sign In" icon="pi pi-user" style={{ height: "50px" }} />
+                <Button label="Sign In" icon="pi pi-user" style={{ maxHeight: "50px" }} />
             </div>
         </div>
     )
