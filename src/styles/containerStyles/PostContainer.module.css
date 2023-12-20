@@ -5,6 +5,7 @@
     overflow-x: auto;
     padding: 20px 0;
     cursor: pointer;
+    border-top: 2px solid #f1f1f1;
 }
 
 .container::-webkit-scrollbar {
