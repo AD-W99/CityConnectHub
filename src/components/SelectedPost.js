@@ -1,3 +1,4 @@
+import { Button } from "primereact/button"
 import styles from "../styles/SelectedPost.module.css"
 
 export function SelectedPost({ selectedPost }) {
@@ -10,6 +11,11 @@ export function SelectedPost({ selectedPost }) {
                 <label>{companyName}</label>
                 <label>{location}</label>
                 <label>{contractType}</label>
+                <div className={styles.buttonContainer}>
+                    <Button icon="pi pi-bookmark" />
+                    <Button icon="pi pi-ban" />
+                    <Button label="Apply" icon="pi pi-external-link" iconPos="right" style={{ alignSelf: "flex-end" }} />
+                </div>
             </div>
             <div>
                 <label className={styles.label}>Work Type: </label>

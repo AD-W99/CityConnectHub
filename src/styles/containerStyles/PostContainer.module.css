@@ -1,4 +1,13 @@
 .container {
     display: flex;
     gap: 20px;
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }

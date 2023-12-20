@@ -2,25 +2,42 @@
     display: flex;
     flex-direction: column;
     width: 30%;
-    border: 1px solid lightgray;
+    border: 1px solid #2eb55d;
     border-radius: 10px;
     padding: 20px;
-    /* min-height: 40px;
-    max-height: 240px;
-    overflow-y: scroll; */
+    overflow-y: auto;
+    max-height: 425px;
 }
 
 .topPostContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    align-items: flex-start;
+    gap: 10px;
     padding: 20px;
     border-bottom: 2px solid #00000014;
     box-shadow: 0 2px 4px #00000014;
     margin-bottom: 20px;
 }
 
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}
+
 .label {
     font-weight: bold;
+}
+  
+.container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
 }
